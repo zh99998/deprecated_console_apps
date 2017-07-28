@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metalink xmlns="urn:ietf:params:xml:ns:metalink">
+    <file name="${name}">
+        <size>${size}</size>
+        <hash type="sha-256">${hash}</hash>
+        <url priority="1">https://r.my-card.in/release/downloads/${hash}.tar.xz</url>
+        <url priority="1">https://myacg.mycard.moe/downloads/${hash}.tar.xz</url>
+    </file>
+</metalink>
+
